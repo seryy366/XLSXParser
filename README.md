@@ -15,7 +15,7 @@ await axios.get('https://projecttemplates/api/consultants/get_consultant_in_json
 await axios.get('https://projecttemplates/api/consultants/app')
 ````
 
-#### /api/v1/config/db   - Данные для BD
+
 
 ## Описание Api
 
