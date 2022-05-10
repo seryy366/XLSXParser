@@ -1,9 +1,12 @@
 # Импорт Excel файл в MySQL Database с использованием PHP
-##Описание Приложения
-#####При установке приложения необходимо подключить бд
+
+![Image alt](https://github.com/seryy366/XLSXParser/blob/main/img.png)
+
+## Описание Приложения
+##### При установке приложения необходимо подключить дамп бд, расположен в корне.
 ##### /api/v1/config/db.php   - Данные для подключения бд
 
-#####Прописать свой путь до Api в файле index.php
+##### Прописать свой путь до Api в файле index.php
 Строка 86 и 100
 ```js
 await axios.get('https://projecttemplates/api/consultants/get_consultant_in_json')
@@ -14,7 +17,7 @@ await axios.get('https://projecttemplates/api/consultants/app')
 
 #### /api/v1/config/db   - Данные для BD
 
-##Описание Api
+## Описание Api
 
 /api  - Апи 
 
@@ -33,3 +36,5 @@ api/api/services    - Сервисы - это методы.
 В перовой части мы указываем сам маршрут. Этот маршрут ищется в Api.php, если такой маршрут найден,
 То берется конструкция из 2 части. 1 парамет это класс, второй метод. 
 В этом Случае запустится класс Consultants и метод getConsultantInJson
+
+Используемые библиотеки лежат в vendor, приложение загрузил без .gitignore 
